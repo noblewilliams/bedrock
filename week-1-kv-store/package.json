@@ -1,0 +1,22 @@
+{
+  "name": "week-1-kv-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stage1": "tsx src/stage-1-naive.ts",
+    "stage2": "tsx src/stage-2-bench.ts",
+    "stage3": "tsx src/stage-3-indexed.ts",
+    "stage4": "tsx src/stage-4-restart.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}

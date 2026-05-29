@@ -9,7 +9,8 @@
     "stage1": "tsx src/stage-1-naive.ts",
     "stage2": "tsx src/stage-2-bench.ts",
     "stage3": "tsx src/stage-3-indexed.ts",
-    "stage4": "tsx src/stage-4-restart.ts"
+    "stage4:write": "tsx src/stage-4-restart.ts write",
+    "stage4:read": "tsx src/stage-4-restart.ts read"
   },
   "keywords": [],
   "author": "",
